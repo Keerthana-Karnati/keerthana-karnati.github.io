@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',      // This tells Next.js to generate a static 'out' folder
+  output: 'export', // CRITICAL: This generates the 'out' folder GitHub needs
   images: {
-    unoptimized: true,   // Essential for GitHub Pages since it can't run the Next.js image server
+    unoptimized: true, // Recommended for GitHub Pages
   },
-  // If your repo name is NOT exactly username.github.io, 
-  // you might need to add: basePath: '/your-repo-name'
 };
-  /* config options here */
+
 export default nextConfig;
