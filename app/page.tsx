@@ -12,7 +12,7 @@ import {
 export default function Portfolio() {
   const [isExpanded, setIsExpanded] = useState(false);
   const fullText =
-    "I am a tech professional who thrives at the intersection of clean code and intelligent data. Having recently completed my Master’s in Computer Science, my focus is on building end-to-end technology that solves real-world problems through robust software architecture and Generative AI. Whether I’m architecting a multi-tier enterprise system in Java or leveraging LLMs to automate workflows, I am dedicated to building software that is as smart as it is functional.";
+    "I am an M.S. in Computer Science graduate and Oracle Certified Professional with a deep focus on building robust, end-to-end applications. My expertise lies in architecting high-performance backends with Java Spring Boot and crafting responsive, user-centric frontends in React.Beyond core development, I leverage my Top 2% national ranking in Deep Learning to bridge the gap between traditional software engineering and modern Generative AI, ensuring that the applications I build are not only scalable but intelligent.";
   const previewText = fullText.slice(0, 150) + "...";
   // --- data ---
   const education = [
